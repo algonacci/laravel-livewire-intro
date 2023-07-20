@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Livewire\Counter;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -11,8 +12,14 @@ use Illuminate\Support\Facades\Route;
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
 |
-*/
+ */
 
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/user', function () {
+    return view('user');
+});
+
+Route::get('/counter', Counter::class);

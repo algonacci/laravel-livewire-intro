@@ -6,16 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    {{-- <livewire:styles /> --}}
-    @livewireStyles
 </head>
 
 <body>
-
-    {{-- <livewire:counter />
-    <livewire:scripts /> --}}
-    @livewire('counter')
-    @livewireScripts
+    <h1>User Table</h1>
 </body>
 
 </html>
