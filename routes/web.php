@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Livewire\Counter;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,5 +20,3 @@ Route::get('/', function () {
 Route::get('/user', function () {
     return view('user');
 });
-
-Route::get('/counter', Counter::class);
